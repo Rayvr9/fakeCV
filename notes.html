@@ -1,0 +1,368 @@
+<!DOCTYPE html> <!-- to create boilerplate : HTML + ENTER -->
+
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <!-- Meta ELEMENT with charset ATTRIBUTE gives the charset
+                                that should be used when displaying the site -->
+
+  <!-- Meta ELEMENT with name ATTRIBUTE -->
+  <meta name="description" content="Raymond van Rooijen's web development notes">
+  <!--
+                          description of the website -->
+  <meta name="keywords" content="Raymond, van, Rooijen, notes">
+  <!-- keywords
+                          that give the website as a result during searches -->
+  <meta name="author" content="Raymond van Rooijen">
+  <!-- Author of the
+                          website-->
+
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width,
+                                 initial-scale=1.0">
+  <!-- the first content
+                                adopts to screen size, whist the second sets the
+                                original scale (amount of zoom)-->
+
+  <!--Refresh -->
+  <!--
+    <meta name="refresh" content="50">     This will ensure the browser refreshes
+                                           after every 50seconds -->
+  <!--
+    <meta http-equi="refresh" content="5; url="url of my website ">
+                                           The browser will automatically
+                                           redirect to the given page after the
+                                           provided time , in this case it
+                                           is 5 seconds -->
+
+
+  <title>Raymond se notas</title>
+  <!-- The title used for site during searches
+                                         and also displayed in TAB header -->
+
+</head>
+
+<body>
+
+  <center>
+    <hr size="3" noshade>
+    <h1>THE ADVENTURES OF <br> SHERLOCK HOLMES </h1>
+    <br>
+    <h3>by</h3>
+    <br>
+    <h2>SIR ARTHUR CONAN DOYLE</h2>
+    <hr size="3" noshade>
+  </center>
+  <br>
+
+  <!-- ANCHOR -->
+  <!-- Because the anchor is used in most cases with href it is automatically created
+     with a href attribute -->
+  <a href="index.html">Click here to return to index site</a>
+
+  <br>
+  <hr>
+
+  <!-- Centering the text -->
+  <Center>
+    The text you want centered.
+  </Center>
+
+  <!-- breakline -->
+  <br>
+  <hr>
+  <br>
+
+  <!-- Paragraph -->
+  <p>The text you want formated as a paragragh</p>
+
+  <!-- Heading elements come in 6 different sizes -->
+  <h1>Heading Level 1</h1>
+  <h2>Heading Level 2</h2>
+  <h3>Heading Level 3</h3>
+  <h4>Heading Level 4</h4>
+  <h5>Heading Level 5</h5>
+  <h6>Heading Level 6</h6>
+  <br>
+
+  <!-- With this horizontal line ELEMENT, size and shading ATTRIBUTES are given -->
+  <hr size="3" noshade>
+  <!-- In this case it will make the line thicker and
+                                 remove shading-->
+
+  <!--BOLD and ITALICS -->
+  <br>
+  <i>italics only</i>
+  <br>
+  <em>emphasis italics</em>
+  <br>
+  <b>bold only</b>
+  <br>
+  <strong>emphasis bold</strong>
+  <br>
+
+  <!-- LISTS -->
+  <hr>
+  <br>
+  <ul>
+    <!-- This is an unordered list -->
+    <li>This is a list item</li>
+    <li>Another list item</li>
+  </ul>
+
+  <ol>
+    <!-- This is an ordered list -->
+    <li>This is a list item </li>
+    <li>Another list item</li>
+  </ol>
+
+  <ol type=i>
+    <!-- This is an ordered list with roman numerals -->
+    <li>This is a list item</li>
+    <li>Another list item</li>
+  </ol>
+
+  <br>
+  <hr><br>
+
+  <!-- Comments can be toggled with "ctrl + /" -->
+
+  <!-- SHORTCUTS -->
+  <!-- with shortcuts that are alot of tags in one or that use syntax, it is
+      essential to use TAB in stead of ENTER to execute it. -->
+
+  <!-- CREATING LARGE LISTS -->
+  <!--
+ENTER:  ul>li.item$*5 + TAB
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+</ul>
+ -->
+  <ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+    <li class="item6"></li>
+    <li class="item7"></li>
+    <li class="item8"></li>
+    <li class="item9"></li>
+    <li class="item10"></li>
+  </ul>
+
+  <br>
+  <hr><br>
+
+  <!-- SYNTAX -->
+
+  <!--
+Child: >
+nav>ul>li
+-->
+
+  <!--
+Multiplication: *
+ul>li*5
+ -->
+
+  <!--
+ Item numbering: $
+ul>li.item$*5
+-->
+
+  <!-- The following can be used to illustrate that the numbering can be used in other
+     instences such as changeing header sizes. -->
+  <!-- h$[title=item$]{Header $}*3 -->
+  <h1 title="item1">Header 1</h1>
+  <h2 title="item2">Header 2</h2>
+  <h3 title="item3">Header 3</h3>
+  <br>
+  <hr><br>
+
+  <!--
+Sibling: +
+div+p+bq
+-->
+
+  <!--
+Text: {}
+a{Click me}
+-->
+
+  <!--
+Custom attributes
+p[title="Hello world"]
+-->
+
+  <!-- CLASS SHORTCUT -->
+  <!-- p.class1.class2.class3 -->
+  <p class="class1 class2 class3"></p>
+
+
+
+  <!-- ANCHOR -->
+  <!-- Because the anchor is used in most cases with href it is automatically created
+     with a href attribute -->
+  <a href="index.html">Click here to return to index site</a>
+
+
+  <br>
+  <hr><br>
+  <!-- TABLE -->
+  <table border=1>
+
+    <head>
+      <tr>
+        <th>Dates</th>
+        <th>Occupation</th>
+      </tr>
+    </head>
+
+    <body>
+      <tr>
+        <td>2009-2014</td>
+        <td>Monte Vista</td>
+      </tr>
+      <tr>
+        <td>2015-2016</td>
+        <td>Panorama</td>
+      </tr>
+      <tr>
+        <td>2017-2021</td>
+        <td>DFMalan</td>
+      </tr>
+    </body>
+
+  </table>
+  <br>
+  <hr><br>
+
+  <!-- NESTING (intresting)-->
+  <!-- Whilst this is an example of incorrect nesting it will seem
+     correct when looking at the output, it should however be avoided
+     and is bad convention. -->
+  <p>My cat is <strong>very grumpy.</p></strong>
+  <br>
+  <hr><br>
+
+  <h3>A poem to boost your mood</h3>
+  <!-- A poem to boost your mood -->
+  <p>People are often unreasonable, illogical and self centered; <br>
+    Forgive them anyway.
+  </p>
+  <p>If you are kind, people may accuse you of selfish, ulterior motives;<br>
+    Be kind anyway.
+  </p>
+  <p>If you are successful, you will win some false friends and some true enemies;<br>
+    Succeed anyway.
+  </p>
+  <p>If you are honest and frank, people may cheat you;<br>
+    Be honest and frank anyway.
+  </p>
+  <p>What you spend years building, someone could destroy overnight;<br>
+    Build anyway.
+  </p>
+  <p>If you find serenity and happiness, they may be jealous;<br>
+    Be happy anyway.
+  </p>
+  <p>The good you do today, people will often forget tomorrow;<br>
+    Do good anyway.
+  </p>
+  <p>Give the world the best you have, and it may never be enough;<br>
+    Give the world the best you've got anyway.
+  </p>
+  <p>You see, in the final analysis, it is between you and your God;<br>
+    It was never between you and them anyway.
+  </p>
+
+  <br>
+  <hr>
+  <br>
+
+  <!-- SPAN -->
+  <p><span>Some text</span></p>
+
+  <br>
+  <hr><br>
+  <!-- DOING THE CHALLENGE EXACTLY RIGHT -->
+  <h3>Skills</h3>
+  <br>
+  <table border=1>
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>web development</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>app development</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>photography</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>art</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <hr><br>
+
+  <!-- INPUT and FORM -->
+
+  <form class="" action="contactDetails.html" method="post">
+    <br>
+    <!--This raises the question why are labels needed -->
+    Name: <input type="text" name="" value="">
+    <br>
+    Password: <input type="password" name="" value="">
+    <br>
+    <!-- I am going to make an educated guess it is for future proofing with CSS coming into play -->
+    <label for="">Name:</label>
+    <input type="text" name="" value="">
+    <br>
+    <label for="">Password:</label>
+    <input type="password" name="" value="">
+    <br>
+    <input type="checkbox" name="" value="">
+    <br>
+    <input type="color" name="" value="">
+    <br>
+    <input type="date">
+    <br>
+    <input type="file">
+    <br>
+    <input type="range">
+    <br>
+    <input type="radio">
+    <br>
+    <input type="submit" name="">
+    <br>
+    <button name="">submit</button>
+    <br>
+    <input type="button" value="Click me" onclick="msg(message)">
+  </form>
+
+  <br>
+  <hr><br>
+
+</body>
+
+</html>
